@@ -3,9 +3,8 @@ import React from 'react';
 export class FirstCityInput extends React.Component {
   render() {
     return (
-      <div>
-        <h2>How is the weather in <u>Florianópolis</u> now?</h2>
-      </div>
+      <form class="first">
+        <h2>How is the weather in</h2><input type="text" name="city" /><h2>now?</h2></form>
     );
   }
 }
@@ -13,9 +12,9 @@ export class FirstCityInput extends React.Component {
 export class SecondCityInput extends React.Component {
   render() {
     return (
-      <div>
-        <h3>How is the weather in <u>Florianópolis</u> now?</h3>
-      </div>
+      <form class="second">
+        <h3>How is the weather in</h3><input type="text" name="city" /><h3>now?</h3>
+      </form>
     );
   }
 }

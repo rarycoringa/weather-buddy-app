@@ -32,10 +32,40 @@ h4 {
   font-size: 12px;
 }
 
+form {
+  display: inline-flex;
+}
+
+input {
+  font-family: 'Montserrat', sans-serif;
+  width: 30%;
+  box-sizing: border-box;
+  border-top: 0px;
+  border-left: 0px;
+  border-width: 0px;
+  border-bottom-width: thin;
+  outline: 0px;
+}
+
+form.first input {
+  font-size: 18px;
+  height: 42px;
+  padding-top: 10px;
+  margin: 0px 5px;
+}
+
+form.second input{
+  font-size: 15px;
+  height: 40px;
+  padding-top: 10px;
+  margin: 0px 4px;
+}
+
 .title {
   border-bottom-width: thin;
   border-bottom-style: solid;
   border-bottom-color: #303030;
+  box-shadow: none;
 }
 
 .card {
