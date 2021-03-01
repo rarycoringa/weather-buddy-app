@@ -50,11 +50,15 @@ input:-webkit-autofill {
   -webkit-box-shadow: 0 0 0 30px white inset;
 }
 
-form.first {
+form.main {
   margin: 25% 0%;
 }
 
-form.first input {
+form.secondary {
+  margin: 5% 0%;
+}
+
+form.main input {
   font-size: 18px;
   height: 42px;
   width: 160px;
@@ -62,7 +66,7 @@ form.first input {
   margin: 0px 5px;
 }
 
-form.second input{
+form.secondary input{
   font-size: 15px;
   height: 40px;
   width: 130px;
@@ -88,9 +92,16 @@ form.second input{
   box-shadow: 0px 2px 2px rgba(48,48,48, 0.2);
 }
 
-.cities {
+.cards {
   align-items: center;
   display: inline-flex;
   padding: 15px 10px;
   background-color: #EDFAFD;
+  margin: 5% 0%;
+}
+
+.notfound {
+  height: 130px;
+  padding: 5px;
+  margin: 20px;
 }

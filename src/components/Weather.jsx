@@ -24,7 +24,7 @@ export class WeatherCard extends React.Component {
 export class WeatherCardsList extends React.Component {
   render() {
     return (
-      <div class="cities">
+      <div class="cards">
         <WeatherCard city="Nottingham" temp="5" weather="Strong Winds" />
         <WeatherCard city="Bergen" temp="2" weather="Light Rain" />
         <WeatherCard city="Toronto" temp="-6" weather="Snow Storm" />
@@ -38,7 +38,7 @@ export class WeatherCardsList extends React.Component {
 export class WeatherNotFound extends React.Component {
   render() {
     return (
-      <div>
+      <div class="notfound">
         <h2 class="error">Sorry. We couldn't find the specified city.</h2>
       </div>
     );
