@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
-import { FirstCityInput, SecondCityInput, CityNotFound } from './components/Search'
-import { Title } from './components/Title'
-import { WeatherCard, WeatherCardsList } from './components/Weather'
+import { FirstCityForm, SecondCityForm} from './components/Forms'
+import { Title } from './components/Main'
+import { WeatherCard, WeatherCardsList, WeatherNotFound } from './components/Weather'
 
 export class App extends React.Component {
   render() {
@@ -10,10 +10,11 @@ export class App extends React.Component {
       <div align="center">
         <Title />
 
-        <FirstCityInput />
-        <CityNotFound />
+        <FirstCityForm />
+        
+        <WeatherNotFound />
 
-        <SecondCityInput />
+        <SecondCityForm />
 
         <WeatherCard city="Florianópolis" temp="22" weather="Light Rain" />
 

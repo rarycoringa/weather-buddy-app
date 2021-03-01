@@ -34,3 +34,13 @@ export class WeatherCardsList extends React.Component {
     );
   }
 }
+
+export class WeatherNotFound extends React.Component {
+  render() {
+    return (
+      <div>
+        <h2 class="error">Sorry. We couldn't find the specified city.</h2>
+      </div>
+    );
+  }
+}
